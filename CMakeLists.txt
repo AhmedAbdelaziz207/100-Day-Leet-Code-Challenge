@@ -3,4 +3,4 @@ project(Vjudge)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Vjudge day_2/problem_1/problem_1.cpp)
+add_executable(Vjudge day_1/two_sum.cpp)
