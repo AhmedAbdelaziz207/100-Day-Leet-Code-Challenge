@@ -67,6 +67,12 @@ build CMakeFiles/Vjudge.dir/day_1/roman_to_integer.cpp.obj: CXX_COMPILER__Vjudge
   OBJECT_DIR = CMakeFiles\Vjudge.dir
   OBJECT_FILE_DIR = CMakeFiles\Vjudge.dir\day_1
 
+build CMakeFiles/Vjudge.dir/day_2/longest_common_prefix.cpp.obj: CXX_COMPILER__Vjudge_Debug C$:/Users/ahmed/CLionProjects/100-Day-Leet-Code-Challenge/day_2/longest_common_prefix.cpp || cmake_object_order_depends_target_Vjudge
+  DEP_FILE = CMakeFiles\Vjudge.dir\day_2\longest_common_prefix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Vjudge.dir
+  OBJECT_FILE_DIR = CMakeFiles\Vjudge.dir\day_2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Vjudge
@@ -75,7 +81,7 @@ build CMakeFiles/Vjudge.dir/day_1/roman_to_integer.cpp.obj: CXX_COMPILER__Vjudge
 #############################################
 # Link the executable Vjudge.exe
 
-build Vjudge.exe: CXX_EXECUTABLE_LINKER__Vjudge_Debug CMakeFiles/Vjudge.dir/day_1/two_sum.cpp.obj CMakeFiles/Vjudge.dir/day_1/palindrome_number.cpp.obj CMakeFiles/Vjudge.dir/day_1/roman_to_integer.cpp.obj
+build Vjudge.exe: CXX_EXECUTABLE_LINKER__Vjudge_Debug CMakeFiles/Vjudge.dir/day_1/two_sum.cpp.obj CMakeFiles/Vjudge.dir/day_1/palindrome_number.cpp.obj CMakeFiles/Vjudge.dir/day_1/roman_to_integer.cpp.obj CMakeFiles/Vjudge.dir/day_2/longest_common_prefix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Vjudge.dir
