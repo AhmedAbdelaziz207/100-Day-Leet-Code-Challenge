@@ -2,8 +2,10 @@
 #include <vector>
 #include "iostream"
 using namespace std;
+vector<int> twoSum(vector<int>& nums, int target);
 int main() {
-
+    vector<int> nums = {1,2,3,4,5};
+   vector<int> index = twoSum(nums, 5);
 }
 /*Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
